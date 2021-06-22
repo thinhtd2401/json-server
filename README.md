@@ -15,14 +15,13 @@
 
 4 . Change the contents of `db.json` to **your own content** according to the [`json-server example`](https://github.com/typicode/json-server#example) and then `commit` your changes to git locally.
 
-_this example will create `/posts` route , each resource will have `id`, `title` and `content`. `id` will auto increment!_
+_this example will create `/todolist` route , each resource will have `id`, `title`. `id` will auto increment!_
 ```json
 {
-  "posts":[
+  "todolist":[
     {
       "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "title": "First working!"
     }
   ]
 }
